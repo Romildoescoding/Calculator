@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@1,500&display=swap');
+
+
+.info{
+    text-align: center;
+    font-family: 'Exo+@:ital,wght',sans-serif , Arial;
+    font-size: 1.5rem;
+}
+
+.calculator
+{
+    background-color: #222831;
+    height: 380px;
+    width: 400px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 12px 22px, rgba(0, 0, 0, 0.23) 0px 8px 8px;
+}
+
+.display_bar
+{
+    background-color: rgb(235, 235, 235);
+    font-family: 'Exo+@:ital,wght',sans-serif , Arial;
+    height: 65%;
+    width: 100%;
+    border: 0.5px solid black;
+    border-radius:5px;
+    color:black;
+}
+
+#btn
+{
+    background-color:#00c086;
+}
+
+#btn:active{
+    background: #00ff8c;
+    box-shadow: inset 0px 0px 5px #c1c1c1;
+}
+
+input[type=button] {
+    font-family: 'Exo+@:ital,wght',sans-serif , Arial;
+    background-color: #00ADB5;
+    color: white;
+    border: solid black 0.5px;
+    height: 70%;
+    width: 100%;
+    border-radius: 5px;
+    outline: none;
+}
+
+input:active[type=button] {
+    background: #00FFF5;
+    box-shadow: inset 0px 0px 5px #c1c1c1;
+}
